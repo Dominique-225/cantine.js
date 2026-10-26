@@ -49,4 +49,4 @@ if (prixUnitaire > 0 && Number.isInteger(quantite) && quantite > 0) {
 
 } else {
     console.log("Veuillez verifiez le code du plat et la quantité.");
-}
+} 
