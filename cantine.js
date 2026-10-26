@@ -1,8 +1,7 @@
-const client = "Awa";
-const codePlat = 1;
-const quantite =  Number(3);
-const montantVerse = 5000;
-
+let client = "Awa";
+let codePlat = 1;
+let quantite =  Number(3);
+let montantVerse = 5000;
 let plat = "";
 let prixUnitaire = 0;
 
@@ -21,7 +20,7 @@ if (codePlat === 1) {
     function calculerTotal(prixUnitaire, quantite) {
         return prixUnitaire * quantite;
     }
-if (prixUnitaire > 0 && Number.isInteger(quantite) && quantite > 0) {
+    if (prixUnitaire > 0 && Number.isInteger(quantite) && quantite > 0) {
 
     const total = calculerTotal(prixUnitaire, quantite);
 
